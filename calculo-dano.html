@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de calculo-dano</title>
+    <style>
+      body {
+        font-size: 20px;
+        margin: 100px 30px 0px 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Escreva um programa que permita inserir o nome e o poder de ataque de um
+      personagem, depois o nome, a quantidade de pontos de vida, o poder de
+      defesa de outro personagem e s ele possui um escudo, e então calcule a
+      quantidade de dano causado baseado na seguintes regras:
+    </p>
+    <p>
+      -Se o poder de ataque for maior do que a defesa e o defensor não possuir
+      um escudo, o dano causado será igual a diferença entre o ataque e a
+      defesa.
+    </p>
+    <p>
+      -Se o poder de ataque for maior do que a defesa e o defensor possui um
+      escudo, o dano causado será igual a metade da diferença entre o ataque e a
+      defesa
+    </p>
+    <p>
+      -Se o poder de ataque for menor ou igual a defesa, o dano causado será 0
+    </p>
+    <p>
+      Por fim, o programa deve substrair a quantidade de dano da quantidade de
+      pontos de vida do personagem defensor e exibir na tela a quantidade de
+      dano e as informações atualizadas de ambos os personagens
+    </p>
+
+    <script src="./calculo-dano.js"" ></script>
+  </body>
+</html>
